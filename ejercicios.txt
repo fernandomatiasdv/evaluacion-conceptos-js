@@ -51,5 +51,15 @@ a) Al señalar un campo a modificar (ingresado a partir del índice del mismo) d
 b) Cuando ya no se busque modificar alguno de los ítems, se mostrará el resultado final (punto 6 - e)
 
 9) Crearemos un log.
-Los sistemas de logueo son
+Los sistemas de logueo son sistemas que muestran todo el trackeo de los datos. Suelen usarse en sistemas de bases de datos que requieren auditoría para comprender quiénes hicieron determinados cambios.
+a) Al ejercicio anterior se agregará un vector nuevo que irá grabando cada movimiento que se genere. Si seguimos el ejercicio 6 quedaría:
+****** INICIO LOG ********
+[AGREGO] Manteca - 1 unidad - $500
+[AGREGO] Cafe - 2 Unidades - $370
+[AGREGO] Limones - 10 unidades - $25
+Y luego modificamos (por el ejercicio 7) el cafe por Malta, su precio y la cantidad, entonces el registro continuaría:
+[MODIFICO] Cafe por Malta - 3 unidades - $125
+****** INICIO LOG ********
+Nota: Lo importante en los sistemas de logueo es que no se pierde ningún valor de los ingresados.
+
 
