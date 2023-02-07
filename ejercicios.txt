@@ -58,8 +58,8 @@ a) Al ejercicio anterior se agregará un vector nuevo que irá grabando cada mov
 [AGREGO] Cafe - 2 Unidades - $370
 [AGREGO] Limones - 10 unidades - $25
 Y luego modificamos (por el ejercicio 7) el cafe por Malta, su precio y la cantidad, entonces el registro continuaría:
-[MODIFICO] Cafe por Malta - 3 unidades - $125
-****** INICIO LOG ********
+[MODIFICO] Cafe por Malta - 2 unidades por 3 unidades - $370 por $125
+****** FIN LOG ********
 Nota: Lo importante en los sistemas de logueo es que no se pierde ningún valor de los ingresados.
 
 
