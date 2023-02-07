@@ -46,5 +46,10 @@ a) Que indique con un número el ítem que quiere modificar.
 b) Se reemplazara el nombre del artículo pero no la cantidad y el costo. 
 c) Una vez finalizado el reemplazo se preguntará si quiere seguir modificando. En caso afirmativo pasaremos al punto (a) y sino se mostrará el punto (6 - e)
 
+8) Modificá el ejercicio anterior para que haya un vector que sea "ítems"; otro, "precio por unidad" y el tercero "cantidad comprada".
+a) Al señalar un campo a modificar (ingresado a partir del índice del mismo) debes pedir el nombre del ítem, la cantidad y el precio. Y modificarlos en cada vector.
+b) Cuando ya no se busque modificar alguno de los ítems, se mostrará el resultado final (punto 6 - e)
 
+9) Crearemos un log.
+Los sistemas de logueo son
 
